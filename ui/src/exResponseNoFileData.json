@@ -1,0 +1,51 @@
+{
+  "path": "./database/fileSystem",
+  "files": [{
+    "path": "database/fileSystem/file0-0",
+    "data": "",
+    "type": "database/fileSystem/file0-0"
+  }, {
+    "path": "database/fileSystem/file0-1",
+    "data": "",
+    "type": "database/fileSystem/file0-1"
+  }],
+  "folders": {
+    "database/fileSystem/Folder1A": {
+      "parent": "./database/fileSystem",
+      "path": "database/fileSystem/Folder1A",
+      "files": [{
+        "path": "database/fileSystem/Folder1A/file1A-0",
+        "data": "",
+        "type": "database/fileSystem/Folder1A/file1A-0"
+      }, {
+        "path": "database/fileSystem/Folder1A/file1A-1",
+        "data": "",
+        "type": "database/fileSystem/Folder1A/file1A-1"
+      }],
+      "folders": {
+        "database/fileSystem/Folder1A/Folder2A": {
+          "parent": "database/fileSystem/Folder1A",
+          "path": "database/fileSystem/Folder1A/Folder2A",
+          "files": [{
+            "path": "database/fileSystem/Folder1A/Folder2A/file2A-0",
+            "data": "",
+            "type": "database/fileSystem/Folder1A/Folder2A/file2A-0"
+          }],
+          "folders": {}
+        },
+        "database/fileSystem/Folder1A/Folder2B": {
+          "parent": "database/fileSystem/Folder1A",
+          "path": "database/fileSystem/Folder1A/Folder2B",
+          "files": [],
+          "folders": {}
+        }
+      }
+    },
+    "database/fileSystem/Folder1B": {
+      "parent": "./database/fileSystem",
+      "path": "database/fileSystem/Folder1B",
+      "files": [],
+      "folders": {}
+    }
+  }
+}

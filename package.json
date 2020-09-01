@@ -1,0 +1,21 @@
+{
+  "name": "file-explorer",
+  "version": "1.0.0",
+  "description": "Browse file structure and view contents",
+  "main": "index.js",
+  "scripts": {
+    "api": "cd ./api && set PORT=8060 && node ./bin/www",
+    "ui": "cd ./ui && react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Trowbridge",
+  "license": "no license",
+  "private": true,
+  "workspaces": [
+    "api",
+    "ui"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}

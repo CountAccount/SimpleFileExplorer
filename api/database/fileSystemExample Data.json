@@ -1,0 +1,41 @@
+{
+  "root": "C:/c/10pct/explorer/_explorer-api/data",
+  "/": {
+    "files": [
+      "/apline castle copy.png",
+      "/apline castle.png",
+      "/forest copy.png",
+      "/forest.png",
+      "/save-it.gif"
+    ],
+    "folders": [
+      "/Folder1A",
+      "/Folder1B"
+    ]
+  },
+  "/Folder1A": {
+    "files": [
+      "/Folder1A/apline castle 1A.png"
+    ],
+    "folders": [
+      "/Folder1A/Folder2A",
+      "/Folder1A/Folder2B"
+    ]
+  },
+  "/Folder1A/Folder2A": {
+    "files": [
+      "/Folder1A/Folder2A/save-it.gif"
+    ],
+    "folders": []
+  },
+  "/Folder1A/Folder2B": {
+    "files": [],
+    "folders": []
+  },
+  "/Folder1B": {
+    "files": [
+      "/Folder1B/apline castle.png"
+    ],
+    "folders": []
+  }
+}
